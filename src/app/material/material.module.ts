@@ -12,13 +12,16 @@ import { MatMenuModule } from "@angular/material/menu";
 import { MatListModule } from "@angular/material/list";
 import { MatGridListModule } from "@angular/material/grid-list";
 import { MatExpansionModule } from "@angular/material/expansion";
+import { MatCardModule } from "@angular/material/card";
+import { MatTabsModule } from "@angular/material/tabs";
+
 
 
 
 
 
 const materialComponent = [
-  MatButtonModule,
+  MatButtonModule,MatCardModule,MatTabsModule,
   MatDividerModule,
   MatButtonToggleModule,
   MatIconModule,

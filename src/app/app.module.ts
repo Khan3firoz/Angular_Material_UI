@@ -15,6 +15,8 @@ import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './list/list.component';
 import { GridListComponent } from './grid-list/grid-list.component';
 import { ExpansionPanelsComponent } from './expansion-panels/expansion-panels.component';
+import { CardsComponent } from './cards/cards.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 
@@ -32,6 +34,8 @@ import { ExpansionPanelsComponent } from './expansion-panels/expansion-panels.co
     ListComponent,
     GridListComponent,
     ExpansionPanelsComponent,
+    CardsComponent,
+    TabsComponent,
   ],
   imports: [
     BrowserModule,
