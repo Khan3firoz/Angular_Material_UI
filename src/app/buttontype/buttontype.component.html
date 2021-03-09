@@ -46,11 +46,42 @@
     </div>
   </section>
 
-
+<h1>Icon button</h1>
   <div class="icon">
     <button mat-icom-button>Tz</button>
     <button mat-fab>Tz</button>
     <button mat-mini-fab>Tz</button>
   </div>
   <button mat-stroked-button color="primary" disableRipple>Primary</button>
+
+  <h1>Button Toggle </h1>
+  <div>
+    <mat-button-toggle #toggleBtn checked disableRipple disabled>Toggle</mat-button-toggle>
+    {{toggleBtn.checked}}
+  </div>
+
+  <div>
+    <h1>Button Toggle Group</h1>
+    <mat-button-toggle-group #toggleGroup="matButtonToggleGroup">
+      <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+      <mat-button-toggle value="Python">Python</mat-button-toggle>
+      <mat-button-toggle value="Nodejs">Nodejs</mat-button-toggle>
+      <mat-button-toggle value="JavaScript">JavaScript</mat-button-toggle>
+      <mat-button-toggle value="Html">Html</mat-button-toggle>
+    </mat-button-toggle-group>
+    {{toggleGroup.value}}
+  </div>
+  <br>
+  <hr>
+  <div>
+    <h1>Button Toggle Group with ckeck button</h1>
+    <mat-button-toggle-group #toggleGroup1="matButtonToggleGroup" multiple>
+      <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+      <mat-button-toggle value="Python">Python</mat-button-toggle>
+      <mat-button-toggle value="Nodejs">Nodejs</mat-button-toggle>
+      <mat-button-toggle value="JavaScript">JavaScript</mat-button-toggle>
+      <mat-button-toggle value="Html">Html</mat-button-toggle>
+    </mat-button-toggle-group>
+    {{toggleGroup1.value}}
+  </div>
 
