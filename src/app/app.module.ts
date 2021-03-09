@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtontypeComponent } from './buttontype/buttontype.component';
 import { MaterialModule } from './material/material.module';
 import { DisplayClaasTextComponent } from './display-claas-text/display-claas-text.component';
+import { BadgesComponent } from './badges/badges.component';
 
 
 
@@ -17,6 +18,7 @@ import { DisplayClaasTextComponent } from './display-claas-text/display-claas-te
     AppComponent,
     ButtontypeComponent,
     DisplayClaasTextComponent,
+    BadgesComponent,
   ],
   imports: [
     BrowserModule,
