@@ -17,6 +17,7 @@ import { GridListComponent } from './grid-list/grid-list.component';
 import { ExpansionPanelsComponent } from './expansion-panels/expansion-panels.component';
 import { CardsComponent } from './cards/cards.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { StepperComponent } from './stepper/stepper.component';
 
 
 
@@ -36,6 +37,7 @@ import { TabsComponent } from './tabs/tabs.component';
     ExpansionPanelsComponent,
     CardsComponent,
     TabsComponent,
+    StepperComponent,
   ],
   imports: [
     BrowserModule,
