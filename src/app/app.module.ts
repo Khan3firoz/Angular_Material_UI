@@ -21,6 +21,7 @@ import { StepperComponent } from './stepper/stepper.component';
 import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { AutoCompleteComponent } from './auto-complete/auto-complete.component';
+import { CheckBoxradioButtonComponent } from './check-boxradio-button/check-boxradio-button.component';
 
 
 
@@ -44,6 +45,7 @@ import { AutoCompleteComponent } from './auto-complete/auto-complete.component';
     InputComponent,
     SelectComponent,
     AutoCompleteComponent,
+    CheckBoxradioButtonComponent,
   ],
   imports: [
     BrowserModule,
