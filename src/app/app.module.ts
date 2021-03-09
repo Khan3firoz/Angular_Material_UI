@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ButtontypeComponent } from './buttontype/buttontype.component';
 import { MaterialModule } from './material/material.module';
+import { DisplayClaasTextComponent } from './display-claas-text/display-claas-text.component';
 
 
 
@@ -15,6 +16,7 @@ import { MaterialModule } from './material/material.module';
   declarations: [
     AppComponent,
     ButtontypeComponent,
+    DisplayClaasTextComponent,
   ],
   imports: [
     BrowserModule,
