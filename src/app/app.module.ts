@@ -18,6 +18,7 @@ import { ExpansionPanelsComponent } from './expansion-panels/expansion-panels.co
 import { CardsComponent } from './cards/cards.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { StepperComponent } from './stepper/stepper.component';
+import { InputComponent } from './input/input.component';
 
 
 
@@ -38,6 +39,7 @@ import { StepperComponent } from './stepper/stepper.component';
     CardsComponent,
     TabsComponent,
     StepperComponent,
+    InputComponent,
   ],
   imports: [
     BrowserModule,
