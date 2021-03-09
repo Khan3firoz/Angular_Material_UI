@@ -10,7 +10,7 @@ import { DisplayClaasTextComponent } from './display-claas-text/display-claas-te
 import { BadgesComponent } from './badges/badges.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './list/list.component';
 import { GridListComponent } from './grid-list/grid-list.component';
@@ -19,6 +19,8 @@ import { CardsComponent } from './cards/cards.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { InputComponent } from './input/input.component';
+import { SelectComponent } from './select/select.component';
+import { AutoCompleteComponent } from './auto-complete/auto-complete.component';
 
 
 
@@ -40,13 +42,16 @@ import { InputComponent } from './input/input.component';
     TabsComponent,
     StepperComponent,
     InputComponent,
+    SelectComponent,
+    AutoCompleteComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],

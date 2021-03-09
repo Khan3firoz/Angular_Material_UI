@@ -17,6 +17,8 @@ import { MatTabsModule } from "@angular/material/tabs";
 import { MatStepperModule } from "@angular/material/stepper";
 import { MatInputModule } from "@angular/material/input";
 import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatSelectModule } from "@angular/material/select";
+import { MatAutocompleteModule } from "@angular/material/autocomplete";
 
 
 
@@ -24,7 +26,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 
 
 const materialComponent = [
-  MatButtonModule,MatCardModule,MatTabsModule,MatStepperModule,MatFormFieldModule,MatInputModule,
+  MatButtonModule,MatCardModule,MatTabsModule,MatStepperModule,MatFormFieldModule,MatInputModule,MatSelectModule,MatAutocompleteModule,
   MatDividerModule,
   MatButtonToggleModule,
   MatIconModule,
