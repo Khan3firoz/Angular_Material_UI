@@ -1,0 +1,21 @@
+<mat-toolbar color="primary" class="navbar">
+    <div>TechZone</div>
+    <div>
+        <span>Home</span>
+        <span>About</span>
+        <span>Services</span>
+        <span>Contact</span>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav (opened)="log('opened')" (closed)="log('Closed')" mode="push" [(opened)]="opened">SideNav</mat-sidenav>
+    <mat-sidenav-content style="height: 80vh;">
+        Main
+    <button (click)="opened=!opened">Toggle Open</button>
+    <button (click)="sidenav.open()">Open</button>
+    <button (click)="sidenav.close()">close</button>
+    <button (click)="sidenav.toggle()">Toggle Method</button>
+
+    </mat-sidenav-content>
+</mat-sidenav-container>
