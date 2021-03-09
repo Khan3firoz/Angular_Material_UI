@@ -12,6 +12,7 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
+import { ListComponent } from './list/list.component';
 
 
 
@@ -26,6 +27,7 @@ import { MenuComponent } from './menu/menu.component';
     ProgressBarComponent,
     NavbarComponent,
     MenuComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
