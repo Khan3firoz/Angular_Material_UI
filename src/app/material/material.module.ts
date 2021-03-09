@@ -10,6 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatMenuModule } from "@angular/material/menu";
 import { MatListModule } from "@angular/material/list";
+import { MatGridListModule } from "@angular/material/grid-list";
 
 
 
@@ -22,7 +23,7 @@ const materialComponent = [
   MatIconModule,
   MatBadgeModule,
   MatProgressSpinnerModule,
-  MatToolbarModule,
+  MatToolbarModule,MatGridListModule,
   MatSidenavModule,
   MatMenuModule,MatListModule
 ]
