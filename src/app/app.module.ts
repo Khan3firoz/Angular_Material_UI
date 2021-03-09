@@ -11,6 +11,7 @@ import { BadgesComponent } from './badges/badges.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './menu/menu.component';
 
 
 
@@ -24,6 +25,7 @@ import { FormsModule } from '@angular/forms';
     BadgesComponent,
     ProgressBarComponent,
     NavbarComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
