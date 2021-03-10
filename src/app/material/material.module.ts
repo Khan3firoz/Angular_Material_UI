@@ -25,6 +25,7 @@ import { MatNativeDateModule } from "@angular/material/core";
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
 
 
 
@@ -35,7 +36,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 const materialComponent = [
   MatButtonModule,MatCardModule,MatTabsModule,MatStepperModule,MatFormFieldModule,MatInputModule,MatSelectModule,MatAutocompleteModule,MatCheckboxModule,
   MatDividerModule,MatRadioModule,MatDatepickerModule,MatNativeDateModule,
-  MatButtonToggleModule,MatTooltipModule,MatSnackBarModule,
+  MatButtonToggleModule,MatTooltipModule,MatSnackBarModule,MatDialogModule,
   MatIconModule,
   MatBadgeModule,MatExpansionModule,
   MatProgressSpinnerModule,

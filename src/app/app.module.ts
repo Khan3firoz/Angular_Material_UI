@@ -26,6 +26,7 @@ import { DatePikerComponent } from './date-piker/date-piker.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { CustomSnacBarComponent, SnackbarComponent } from './snackbar/snackbar.component';
 import { DilogboxComponent } from './dilogbox/dilogbox.component';
+import { DilogExampleComponent } from './dilog-example/dilog-example.component';
 
 
 
@@ -54,8 +55,9 @@ import { DilogboxComponent } from './dilogbox/dilogbox.component';
     TooltipComponent,
     SnackbarComponent,
     DilogboxComponent,
+    DilogExampleComponent,
   ],
-  entryComponents:[CustomSnacBarComponent],
+  entryComponents:[CustomSnacBarComponent,DilogExampleComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
