@@ -21,6 +21,11 @@ import { MatSelectModule } from "@angular/material/select";
 import { MatAutocompleteModule } from "@angular/material/autocomplete";
 import { MatCheckboxModule } from "@angular/material/checkbox";
 import { MatRadioModule } from "@angular/material/radio";
+import { MatNativeDateModule } from "@angular/material/core";
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
 
 
 
@@ -29,8 +34,8 @@ import { MatRadioModule } from "@angular/material/radio";
 
 const materialComponent = [
   MatButtonModule,MatCardModule,MatTabsModule,MatStepperModule,MatFormFieldModule,MatInputModule,MatSelectModule,MatAutocompleteModule,MatCheckboxModule,
-  MatDividerModule,MatRadioModule,
-  MatButtonToggleModule,
+  MatDividerModule,MatRadioModule,MatDatepickerModule,MatNativeDateModule,
+  MatButtonToggleModule,MatTooltipModule,MatSnackBarModule,
   MatIconModule,
   MatBadgeModule,MatExpansionModule,
   MatProgressSpinnerModule,
